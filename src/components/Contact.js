@@ -14,14 +14,17 @@ import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';mport FaceIcon from '@material-ui/icons/Face';
+import ListItemText from '@material-ui/core/ListItemText';
+import FaceIcon from '@material-ui/icons/Face';
 import DescriptionOutlinedIcon from '@material-ui/icons/DescriptionOutlined';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import KeyboardSharpIcon from '@material-ui/icons/KeyboardSharp';
-import ContactMailOutlinedIcon from '@material-ui/icons/ContactMailOutlined';mport Card from '@material-ui/core/Card';
+import ContactMailOutlinedIcon from '@material-ui/icons/ContactMailOutlined';
+import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
-import Button from '@material-ui/core/Button';mport Linkedin from '../assets/img/Linkedin.svg'
+import Button from '@material-ui/core/Button';
+import Linkedin from '../assets/img/Linkedin.svg'
 import { useHistory } from "react-router-dom";
 
 const drawerWidth = 240;

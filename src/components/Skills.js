@@ -14,11 +14,13 @@ import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';mport FaceIcon from '@material-ui/icons/Face';
+import ListItemText from '@material-ui/core/ListItemText';
+import FaceIcon from '@material-ui/icons/Face';
 import DescriptionOutlinedIcon from '@material-ui/icons/DescriptionOutlined';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import KeyboardSharpIcon from '@material-ui/icons/KeyboardSharp';
-import ContactMailOutlinedIcon from '@material-ui/icons/ContactMailOutlined';mport AdvancedGridList from './GridList.js';
+import ContactMailOutlinedIcon from '@material-ui/icons/ContactMailOutlined';
+import AdvancedGridList from './GridList.js';
 import SecondarySkillsList from './Secondaryskills.js'
 import { useHistory } from "react-router-dom";
 

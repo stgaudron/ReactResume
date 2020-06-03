@@ -4,7 +4,6 @@ import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
 import GridListTileBar from '@material-ui/core/GridListTileBar';
 import IconButton from '@material-ui/core/IconButton';
-import StarBorderIcon from '@material-ui/icons/StarBorder';
 import php from '../assets/img/php.svg';
 import Flask_logo from '../assets/img/Flask_logo.svg';
 import C from '../assets/img/C.svg';
@@ -17,7 +16,6 @@ import python from '../assets/img/python.svg';
 import react1 from '../assets/img/react1.svg';
 import react from '../assets/img/react.svg';
 import symfony from '../assets/img/symfony.svg';
-import HalfRating from './Rating.js';
 import Rating from '@material-ui/lab/Rating';
 
 
