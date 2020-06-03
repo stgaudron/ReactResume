@@ -1,27 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import GridList from '@material-ui/core/GridList';
-import GridListTile from '@material-ui/core/GridListTile';
-import GridListTileBar from '@material-ui/core/GridListTileBar';
-import IconButton from '@material-ui/core/IconButton';
-import StarBorderIcon from '@material-ui/icons/StarBorder';
-import php from '../assets/img/php.svg';
-import Flask_logo from '../assets/img/Flask_logo.svg';
-import C from '../assets/img/C.svg';
-import express from '../assets/img/express.svg';
-import javaScript from '../assets/img/javaScript.svg';
-import mongodb from '../assets/img/mongodb.svg';
-import MySQL from '../assets/img/MySQL.svg';
-import nodejs from '../assets/img/nodejs.svg';
-import python from '../assets/img/python.svg';
-import react1 from '../assets/img/react1.svg';
-import react from '../assets/img/react.svg';
-import symfony from '../assets/img/symfony.svg';
-import HalfRating from './Rating.js';
 import Rating from '@material-ui/lab/Rating';
-import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
-
 
 const useStyles = makeStyles(theme => ({
   root: {

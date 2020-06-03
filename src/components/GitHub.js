@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from 'react';
 import clsx from 'clsx';
 import { useFetch } from "./hooks";
 import { makeStyles, useTheme } from '@material-ui/core/styles';
@@ -16,32 +15,17 @@ import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import InboxIcon from '@material-ui/icons/MoveToInbox';
-import MailIcon from '@material-ui/icons/Mail';
 import FaceIcon from '@material-ui/icons/Face';
 import DescriptionOutlinedIcon from '@material-ui/icons/DescriptionOutlined';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import KeyboardSharpIcon from '@material-ui/icons/KeyboardSharp';
 import ContactMailOutlinedIcon from '@material-ui/icons/ContactMailOutlined';
-import GamesIcon from '@material-ui/icons/Games';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
 import CardContent from '@material-ui/core/CardContent';
-import CardActions from '@material-ui/core/CardActions';
 import Avatar from '@material-ui/core/Avatar';
 import CardActionArea from '@material-ui/core/CardActionArea';
-import * as gitColors from './cube/data/githubcolors.json';
-import GitDetail from './GitDetail.js'
-import ButtonBase from '@material-ui/core/ButtonBase';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  useRouteMatch,
-  useParams,
-  useHistory
-} from "react-router-dom";
+import {  useHistory } from "react-router-dom";
 
 
 const drawerWidth = 240;
@@ -222,7 +206,7 @@ export default function MiniDrawer() {
 
       <main className={classes.content}>
               <div className={classes.toolbar} />
-              
+
               {loading ? (
                 "Loading..."
               ) : (
