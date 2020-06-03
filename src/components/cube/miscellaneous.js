@@ -1,21 +1,7 @@
-import React, {useState, useEffect} from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
-import Card from '@material-ui/core/Card';
-import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import CardContent from '@material-ui/core/CardContent';
-import Grid from '@material-ui/core/Grid';
-import Link from '@material-ui/core/Link';
-import {
-  withGoogleMap,
-  withScriptjs,
-  GoogleMap,
-  Marker,
-  InfoWindow
-} from "react-google-maps";
-import * as cityData from './data/cities.json';
-import Gmap from './map';
 
 
 const useStyles = makeStyles(theme => ({
