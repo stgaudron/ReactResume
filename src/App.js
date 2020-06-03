@@ -88,11 +88,10 @@ function App() {
         <Switch>
            <Route exact path="/drawer" component={MiniDrawer} />
            <Route exact path="/" component={Home} />
-           <Route path="/drawer/Resume" component={Resume} />
-           <Route path="/drawer/GitHub" component={GitHub} />
-           <Route path="/drawer/Skills" component={Skills} />
-           <Route path="/drawer/Contact" component={ContactInfo} />
-           <Route path="/drawer/Games" component={Games} />
+           <Route exact path="/drawer/Resume" component={Resume} />
+           <Route exact path="/drawer/GitHub" component={GitHub} />
+           <Route exact path="/drawer/Skills" component={Skills} />
+           <Route exact path="/drawer/Contact" component={ContactInfo} />
         </Switch>
     </Router>
    );
