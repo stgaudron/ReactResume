@@ -1,4 +1,4 @@
-mport React, {Component} from 'react';
+import React, {Component} from 'react';
 import './Cube.css';
 import SimplePaper from './cubeCard';
 import EducationPaper from './educationCard';
