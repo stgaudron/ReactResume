@@ -4,16 +4,10 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
-  useRouteMatch,
-  useParams
 } from "react-router-dom";
-import { withRouter} from 'react-router-dom';
 import { useHistory } from "react-router-dom";
 import MiniDrawer from './components/drawer';
-import Typography from '@material-ui/core/Typography';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
-import Drawer from '@material-ui/core/Drawer';
 import Games from './components/Games';
 import ContactInfo from './components/Contact';
 import GitHub from './components/GitHub';
@@ -111,7 +105,7 @@ function App() {
    function handleClick() {
         history.push("/drawer");
      }
-   return <img src={homeimage} style={{height:'auto',width:'100%'}} onClick={handleClick} />;
+   return <img src={homeimage} alt="home" style={{height:'auto',width:'100%'}} onClick={handleClick} />;
  }
 
 
