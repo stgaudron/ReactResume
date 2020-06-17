@@ -27,42 +27,34 @@ const useStyles = makeStyles(theme => ({
   {
     title: 'Git',
     featured: false,
-    rating: 2
   },
   {
     title: 'GitHub',
     featured: false,
-    rating: 3
   },
   {
     title: "Git Flow",
     featured: false,
-    rating: 3
   },
   {
     title: 'Linux Mint',
     featured: false,
-    rating: 4
   },
   {
     title: 'Agile',
     featured: false,
-    rating: 4
   },
   {
     title: 'Trello',
     featured: false,
-    rating: 3
   },
   {
     title: 'MS Teams',
     featured: false,
-    rating: 2
   },
   {
     title: 'UX/UI',
     featured: false,
-    rating: 4
   },
 
   ];
@@ -136,7 +128,7 @@ export default function SecondarySkillsList() {
                 {
                   skillData.map(skill => (
                   <tr key={skill.title} width="400">
-                    <td width="100" align="left">{skill.title}</td> <td align="center">  <Rating name="size-small" size="small" defaultValue={skill.rating} precision={1} readOnly /></td>
+                    <td width="100" align="left">{skill.title}</td> <td align="center">  </td>
                   </tr>
                   ))}
 
