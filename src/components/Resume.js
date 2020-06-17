@@ -20,7 +20,6 @@ import DescriptionOutlinedIcon from '@material-ui/icons/DescriptionOutlined';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import KeyboardSharpIcon from '@material-ui/icons/KeyboardSharp';
 import ContactMailOutlinedIcon from '@material-ui/icons/ContactMailOutlined';
-import FlipCard from './Flipcard.js'
 import CubeComponent from './cube/Cube.js';
 import { useHistory } from "react-router-dom";
 
@@ -103,8 +102,6 @@ export default function MiniDrawer() {
   const handleDrawerClose = () => {
     setOpen(false);
   };
-
-  let history = useHistory();
 
   const ListItemLink = (props) => {
   return <ListItem button component="a" {...props} />;

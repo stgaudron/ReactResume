@@ -102,8 +102,6 @@ export default function MiniDrawer() {
     setOpen(false);
   };
 
-  let history = useHistory();
-
   const ListItemLink = (props) => {
   return <ListItem button component="a" {...props} />;
   }
